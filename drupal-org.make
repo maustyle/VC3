@@ -109,7 +109,7 @@ projects[webform][subdir] = "contrib"
 
 
 ; Themes
-; 
+;
 projects[][type] = "theme"
 projects[][version] = "1.x"
 projects[][subdir] = "contrib"
@@ -123,23 +123,23 @@ libraries[fullcalendar][directory_name] = "fullcalendar"
 libraries[fullcalendar][type] = "library"
 libraries[fullcalendar][destination] = "libraries"
 libraries[fullcalendar][download][type] = "get"
-libraries[fullcalendar][download][url] = "" ; TODO add download URI
+libraries[fullcalendar][download][url] = "http://www.openhotelapp.com/downloads/fullcalendar-1.5.4/fullcalendar/fullcalendar.min.js"
 
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "" ; TODO add download URI
+libraries[flexslider][download][url] = "https://raw.github.com/woothemes/FlexSlider/master/jquery.flexslider-min.js"
 
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "" ; TODO add download URI
+libraries[colorbox][download][url] = "http://www.openhotelapp.com/downloads/colorbox/colorbox/jquery.colorbox-min.js"
 
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
 libraries[jquery.cycle][destination] = "libraries"
 libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "" ; TODO add download URI
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
