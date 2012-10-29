@@ -110,9 +110,9 @@ projects[webform][subdir] = "contrib"
 
 ; Themes
 ;
-projects[][type] = "theme"
-projects[][version] = "1.x"
-projects[][subdir] = "contrib"
+;projects[][type] = "theme"
+;projects[][version] = "1.x"
+;projects[][subdir] = "contrib"
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "7.x-3.1"
