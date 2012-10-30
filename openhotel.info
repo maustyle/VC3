@@ -1,4 +1,4 @@
-; Packaging information for open_hotel
+; Packaging information for openhotel
 name = Open Hotel
 description = A free Drupal distribution with online availability and online booking for your resort.
 exclusive = 1

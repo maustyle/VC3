@@ -1,14 +1,14 @@
 <?php
   !function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
-  profiler_v2('open_hotel');
+  profiler_v2('openhotel');
 
 /**
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
  */
-function open_hotel_install() {
-  // Enable some open_hotel blocks.
+function openhotel_install() {
+  // Enable some openhotel blocks.
   $default_theme = 'hotelbooking';
   $admin_theme = 'seven';
   // disable all themes
@@ -92,7 +92,7 @@ function open_hotel_install() {
     $query->values($block);
   }
   $query->execute();
-  
+
   // revert features to ensure they are all installed
   $features = array(
     ''
