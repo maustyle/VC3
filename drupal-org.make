@@ -112,11 +112,15 @@ projects[webform][subdir] = "contrib"
 ;
 ;projects[][type] = "theme"
 ;projects[][version] = "1.x"
-;projects[][subdir] = "contrib"
+;projects[][subdir] = "custom"
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "7.x-3.1"
 projects[omega][subdir] = "contrib"
+; profiler
+projects[profiler][type] = "theme"
+projects[profiler][version] = "7.x-2.0-beta1"
+projects[profiler][subdir] = "contrib"
 
 ; Libraries
 libraries[fullcalendar][directory_name] = "fullcalendar"
