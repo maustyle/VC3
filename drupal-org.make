@@ -135,7 +135,7 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
