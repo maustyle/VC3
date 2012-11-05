@@ -17,3 +17,11 @@ function system_form_install_select_profile_form_alter(&$form, $form_state) {
     $form['profile'][$key]['#value'] = 'openhotel';
   }
 }
+
+
+/**
+ * Installer task callback.
+ */
+function opendeals_profile_setup() {
+  variable_set('googleanalytics_account','UA-34867627-1');
+}
