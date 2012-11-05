@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek,cyrillic);
+
+
+*, input, label, legend, textarea, h1, h2, h3, h4, h5, h6, body, p, a{font-family: 'Open Sans', sans-serif;}
+#admin-menu a{font-family:"lucida grande", tahoma, verdana, arial, sans-serif;}
+body{background:#eee;font-size:16px;}
+.branding-data{float:left;}
+#block-locale-language {float:right;}
+#block-locale-language .content img{border:1px solid #999;}
+#block-locale-language .content li{float:left;list-style:none;margin:0 7px 0 0;}
+
+/* main menu */
+#block-system-main-menu{background:#ddd;border-radius:5px;padding:10px;margin:5px 0 0 0;}
+#block-system-main-menu .content li{float:left;list-style:none;font-size:14px;margin:0 10px 0 0;}
+#block-system-main-menu .content a{text-decoration:none;padding:7px;border-radius:5px;}
+#block-system-main-menu .content li a:hover{background:#ccc;color:#fff;}
+
+#block-views-front-page-slide-show-block{margin:10px 0 20px 0;}
+#block-views-front-page-slide-show-block img{border-radius:5px;}
+
+#block-rooms-booking-manager-rooms-availability-search .form-item-group-size{float:left;margin:0 20px 0 0;}
+#block-rooms-booking-manager-rooms-availability-search .form-item-rooms{margin-top:0 !important;}
+
+#block-block-1{font-size:14px;}
+
+#block-menu-menu-footer-menu .content li{float:left;list-style:none;}
+
+img.adaptive-image{width:100% !important;height:auto !important;}
+
+.field-name-field-photo img{float:left;margin:0 15px 0 0;border:5px solid #fff;}
