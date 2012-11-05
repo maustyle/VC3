@@ -17,7 +17,7 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_google_analytics][version] = "1.0-rc2"
 projects[commerce_google_analytics][subdir] = "contrib"
 
-projects[field_redirection][version] = "2.4"
+projects[field_redirection][version] = "2.5"
 projects[field_redirection][subdir] = "contrib"
 
 projects[ccl][version] = "1.5"
@@ -26,7 +26,7 @@ projects[ccl][subdir] = "contrib"
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.0-rc1"
+projects[profiler_builder][version] = "1.0-rc2"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[features][version] = "1.0"
@@ -86,7 +86,7 @@ projects[rooms][subdir] = "contrib"
 projects[rules][version] = "2.2"
 projects[rules][subdir] = "contrib"
 
-projects[google_analytics][version] = "1.2"
+projects[google_analytics][version] = "1.3"
 projects[google_analytics][subdir] = "contrib"
 
 projects[omega_tools][version] = "3.0-rc4"
@@ -110,16 +110,16 @@ projects[webform][subdir] = "contrib"
 
 ; Themes
 ;
-;projects[][type] = "theme"
-;projects[][version] = "1.x"
-;projects[][subdir] = "custom"
+projects[openhoteltheme][type] = "theme"
+projects[openhoteltheme][version] = "1.x"
+projects[openhoteltheme][subdir] = "custom"
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "7.x-3.1"
+projects[omega][version] = "3.1"
 projects[omega][subdir] = "contrib"
 ; profiler
 projects[profiler][type] = "theme"
-projects[profiler][version] = "7.x-2.0-beta1"
+projects[profiler][version] = "2.0-beta1"
 projects[profiler][subdir] = "contrib"
 
 ; Libraries
@@ -133,7 +133,7 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-2.0.zip"
+libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
 
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
