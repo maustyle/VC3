@@ -110,9 +110,9 @@ projects[webform][subdir] = "contrib"
 
 ; Themes
 ;
-projects[openhoteltheme][type] = "theme"
-projects[openhoteltheme][version] = "1.x"
-projects[openhoteltheme][subdir] = "custom"
+;projects[openhoteltheme][type] = "theme"
+;projects[openhoteltheme][version] = "1.x"
+;projects[openhoteltheme][subdir] = "custom"
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
