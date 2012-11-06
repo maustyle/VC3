@@ -32,6 +32,9 @@ projects[profiler_builder][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][subdir] = "contrib"
 
+projects[features_extra][version] = "1.0-alpha1"
+projects[features_extra][subdir] = "contrib"
+
 projects[addressfield][version] = "1.0-beta3"
 projects[addressfield][subdir] = "contrib"
 
@@ -107,12 +110,13 @@ projects[views_slideshow][subdir] = "contrib"
 projects[webform][version] = "3.18"
 projects[webform][subdir] = "contrib"
 
+projects[context][version] = "3.0-beta4"
+projects[context][subdir] = "contrib"
+
+projects[defaultcontent][version] = "1.0-alpha6"
+projects[defaultcontent][subdir] = "contrib"
 
 ; Themes
-;
-;projects[openhoteltheme][type] = "theme"
-;projects[openhoteltheme][version] = "1.x"
-;projects[openhoteltheme][subdir] = "custom"
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "3.1"

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Openhotel Structure feature.
+ */
+
+include_once 'openhotel_structure.features.inc';

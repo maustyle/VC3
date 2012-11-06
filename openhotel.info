@@ -137,8 +137,19 @@ dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
+; Context
+dependencies[] = context
 ; Features
 dependencies[] = features
+dependencies[] = features_extra
+dependencies[] = defaultcontent
+; Distribution modules.
+dependencies[] = openhotel_languages
+dependencies[] = openhotel_permissions
+dependencies[] = openhotel_variables
+dependencies[] = openhotel_structure
+dependencies[] = openhotel_views
+dependencies[] = openhotel_content
 
 ; ----------
 ; Variables

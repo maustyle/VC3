@@ -1,0 +1,10 @@
+name = Openhotel Languages
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = features
+dependencies[] = locale
+features[features_api][] = api:1
+features[language][] = el
+features[language][] = en
+features[language][] = it

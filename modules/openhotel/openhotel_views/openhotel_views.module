@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Openhotel Views feature.
+ */
+
+include_once 'openhotel_views.features.inc';
