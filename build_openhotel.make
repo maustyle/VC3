@@ -9,8 +9,8 @@ core = 7.16
 includes[] = drupal-org-core.make
 
 ; Add Opendeals to the full distribution build.
-projects[opendeals][type] = profile
-projects[opendeals][version] = 1.x-dev
-projects[opendeals][download][type] = git
-projects[opendeals][download][url] = http://git.drupal.org/project/openhotel.git
-projects[opendeals][download][branch] = 7.x-1.x
+projects[openhotel][type] = profile
+projects[openhotel][version] = 1.x-dev
+projects[openhotel][download][type] = git
+projects[openhotel][download][url] = http://git.drupal.org/project/openhotel.git
+projects[openhotel][download][branch] = 7.x-1.x
