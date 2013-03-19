@@ -560,13 +560,6 @@ function openhotel_variables_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'defaultcontent_hashes';
-  $strongarm->value = array();
-  $export['defaultcontent_hashes'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'default_nodes_main';
   $strongarm->value = '10';
   $export['default_nodes_main'] = $strongarm;
@@ -666,7 +659,6 @@ function openhotel_variables_strongarm() {
     'commerce_tax_ui' => 'commerce_tax_ui',
     'commerce_tax' => 'commerce_tax',
     'dashboard' => 'dashboard',
-    'defaultcontent' => 'defaultcontent',
     'draggableviews' => 'draggableviews',
     'views' => 'views',
     'field_redirection' => 'field_redirection',
@@ -1126,66 +1118,6 @@ user/*/*';
   $strongarm->name = 'i18n_sync_node_type_webform';
   $strongarm->value = array();
   $export['i18n_sync_node_type_webform'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'install_profile';
-  $strongarm->value = 'standard';
-  $export['install_profile'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'install_task';
-  $strongarm->value = 'done';
-  $export['install_task'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'install_time';
-  $strongarm->value = 1347821137;
-  $export['install_time'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'javascript_parsed';
-  $strongarm->value = array(
-    0 => 'misc/drupal.js',
-    1 => 'misc/jquery.js',
-    2 => 'misc/jquery.once.js',
-    3 => 'sites/all/modules/views_slideshow/js/views_slideshow.js',
-    4 => 'misc/ui/jquery.ui.core.min.js',
-    5 => 'misc/ui/jquery.ui.widget.min.js',
-    6 => 'misc/ui/jquery.ui.mouse.min.js',
-    7 => 'misc/ui/jquery.ui.draggable.min.js',
-    8 => 'misc/ui/jquery.ui.droppable.min.js',
-    9 => 'misc/ui/jquery.ui.sortable.min.js',
-    10 => 'sites/all/modules/context/plugins/context_reaction_block.js',
-    11 => 'sites/all/modules/features/features.js',
-    12 => 'misc/tableheader.js',
-    13 => 'misc/form.js',
-    14 => 'misc/vertical-tabs.js',
-    15 => 'sites/all/modules/admin_menu/admin_menu.js',
-    16 => 'sites/all/modules/admin_menu/admin_menu_toolbar/admin_menu_toolbar.js',
-    'refresh:el' => 'waiting',
-    'refresh:it' => 'waiting',
-    17 => 'misc/autocomplete.js',
-    18 => 'misc/jquery.cookie.js',
-    19 => 'misc/jquery.form.js',
-    20 => 'misc/progress.js',
-    21 => 'misc/ajax.js',
-  );
-  $export['javascript_parsed'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'languageicons_path';
-  $strongarm->value = 'sites/all/modules/languageicons/flags/*.png';
-  $export['languageicons_path'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -2549,10 +2481,9 @@ user/*/*';
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 0,
-    'logo_path' => 'public://hblogo_0.png',
+    'logo_path' => 'profiles/openhotel/import_images/logo.png',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'public://favicon_0.png',
     'favicon_upload' => '',
     'alpha_grid' => 'alpha_default',
     'alpha_responsive' => 1,
@@ -2956,10 +2887,9 @@ user/*/*';
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 0,
-    'logo_path' => 'sites/default/files/hblogo_0.png',
+    'logo_path' => 'profiles/openhotel/import_images/logo.png',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'sites/default/files/favicon_0.png',
     'favicon_upload' => '',
     'alpha_grid' => 'alpha_default',
     'alpha_responsive' => 1,

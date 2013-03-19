@@ -1,0 +1,4 @@
+name = Openhotel Defaults
+description = Set some default data for openhotel
+core = 7.x
+package = Custom

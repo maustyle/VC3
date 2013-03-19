@@ -1,0 +1,41 @@
+"nid","type","title","body","image"
+6,"page","What is Open Hotel","<p>Open Hotel is a <strong>free</strong> distribution based on Drupal 7. You can use the distribution for you or your clients to build a hotel or apartments site with online availability and online booking.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Online Availability.</li>
+<li>Online Booking.</li>
+<li>Multilingual.</li>
+<li>Photo Galleries.</li>
+<li>Search Engines Optimized.</li>
+<li>Flexible, secure and performant as Drupal.</li>
+<li>Responsive Design.</li>
+<li>Free and Open Source.</li>
+</ul>
+
+<p><a href=""http://www.netstudio.gr/en"">Netstudio</a>, a drupal development services agency in Greece is behind the distribution and you can ask for paid support if you need help installing, setting up or modifying your site. We hope that the distribution will be beneficial and useful for you. We'll be glad to listen to your comments and feedback.</p>",
+11,"photo_gallery","Photo Gallery","This is a photo gallery. You can add as many photo galleries as you need to your site. For example, you can have a photo gallery for rooms, another for the place etc.","room1.jpeg|golf.jpg"
+5,"page","About","This is a placeholder page to describe your resort. Edit it.",
+9,"page","Facilities","This is a placeholder page to list and describe your resort's facilities. Edit at your will.
+
+<ul>
+<li>Restaurant</li>
+<li>Bar</li>
+<li>24-hour front desk</li>
+<li>Non-smoking rooms</li>
+<li>Safety deposit box</li>
+<li>Air conditioning</li>
+<li>Sauna</li>
+<li>Fitness centre</li>
+<li>Indoor swimming pool</li>
+<li>WiFi</li>
+</ul>",
+4,"front_page_slideshow_slide","Enjoy the pool","Enjoy your drink besides our pool. Let your children play and swim safely under our lifeguard's supervision.","slide2.jpg"
+3,"front_page_slideshow_slide","Relax under the Sun","Relax under the sun of our beautiful island. Forget about anything else, just charge your batteries.","slide1.jpg"
+10,"page","Privacy & Terms of Use","This is a placeholder page for your privacy policy and terms of use.",
+8,"testimonials","We'll come back soon","We stayed at your hotel for 8 days. Everything was wonderful! Clean, with nice gardens and a great pool near the beach. Highly Recommended!",
+7,"testimonials","We had a great time!","We had a great time at your hotel! Thanks a lot for your hospitality. Congratulations to all staff for their professionalism!",
+2,"page","Thank You","Thank you for contacting us.
+
+We will respond back to you as soon as possible.",

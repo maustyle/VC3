@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this in to use in local development
-; projects[drupal][version] = "7.x"
+; includes[] = drupal-org-core.make
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc3"
@@ -32,8 +32,14 @@ projects[profiler_builder][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][subdir] = "contrib"
 
+projects[diff][version] = "3.2"
+projects[diff][subdir] = "contrib"
+
 projects[features_extra][version] = "1.0-alpha1"
 projects[features_extra][subdir] = "contrib"
+
+projects[ftools][version] = "1.6"
+projects[ftools][subdir] = "contrib"
 
 projects[addressfield][version] = "1.0-beta3"
 projects[addressfield][subdir] = "contrib"
@@ -47,8 +53,8 @@ projects[flexslider][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 projects[cs_adaptive_image][subdir] = "contrib"
 
-projects[l10n_update][version] = "1.0-beta3"
-projects[l10n_update][subdir] = "contrib"
+; projects[l10n_update][version] = "1.0-beta3"
+; projects[l10n_update][subdir] = "contrib"
 
 projects[i18n][version] = "1.7"
 projects[i18n][subdir] = "contrib"
@@ -113,18 +119,10 @@ projects[webform][subdir] = "contrib"
 projects[context][version] = "3.0-beta4"
 projects[context][subdir] = "contrib"
 
-projects[defaultcontent][version] = "1.0-alpha6"
-projects[defaultcontent][subdir] = "contrib"
-
 ; Themes
-; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
 projects[omega][subdir] = "contrib"
-; profiler
-projects[profiler][type] = "theme"
-projects[profiler][version] = "2.0-beta1"
-projects[profiler][subdir] = "contrib"
 
 ; Libraries
 libraries[fullcalendar][directory_name] = "fullcalendar"
@@ -134,16 +132,14 @@ libraries[fullcalendar][download][type] = "get"
 libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.4.zip"
 
 libraries[flexslider][directory_name] = "flexslider"
-libraries[flexslider][type] = "library"
+libraries[flexslider][download][type] = git
 libraries[flexslider][destination] = "libraries"
-libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
+libraries[flexslider][download][url] = git://github.com/woothemes/FlexSlider.git
 
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
-libraries[colorbox][destination] = "libraries"
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[markitup][download][type] = git
+libraries[markitup][download][url] = git://github.com/jackmoore/colorbox.git
+libraries[markitup][download][tag] = 1.4.4
+libraries[markitup][destination] = "libraries"
 
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"

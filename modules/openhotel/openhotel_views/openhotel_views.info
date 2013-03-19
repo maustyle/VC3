@@ -3,6 +3,7 @@ core = 7.x
 package = Features
 dependencies[] = ctools
 dependencies[] = views
+dependencies[] = openhotel_defaults
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
 features[views_view][] = front_page_slide_show
