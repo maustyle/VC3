@@ -134,12 +134,12 @@ libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloa
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][download][type] = git
 libraries[flexslider][destination] = "libraries"
-libraries[flexslider][download][url] = git://github.com/woothemes/FlexSlider.git
+libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
 
-libraries[markitup][download][type] = git
-libraries[markitup][download][url] = git://github.com/jackmoore/colorbox.git
-libraries[markitup][download][tag] = 1.4.4
-libraries[markitup][destination] = "libraries"
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
+libraries[colorbox][download][tag] = 1.4.4
+libraries[colorbox][destination] = "libraries"
 
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
