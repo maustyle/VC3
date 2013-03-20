@@ -14,7 +14,7 @@ projects[ctools][subdir] = "contrib"
 projects[commerce][version] = "1.5"
 projects[commerce][subdir] = "contrib"
 
-projects[commerce_google_analytics][version] = "7.x-1.0"
+projects[commerce_google_analytics][version] = "1.0"
 projects[commerce_google_analytics][subdir] = "contrib"
 
 projects[field_redirection][version] = "2.5"
@@ -35,7 +35,7 @@ projects[features][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[features_extra][version] = "7.x-1.0-alpha2"
+projects[features_extra][version] = "1.0-alpha2"
 projects[features_extra][subdir] = "contrib"
 
 projects[ftools][version] = "1.6"
@@ -44,7 +44,7 @@ projects[ftools][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta3"
 projects[addressfield][subdir] = "contrib"
 
-projects[link][version] = "1.1"
+projects[link][version] = "1.0"
 projects[link][subdir] = "contrib"
 
 projects[flexslider][version] = "1.0-rc3"
@@ -68,7 +68,7 @@ projects[rules][subdir] = "contrib"
 projects[colorbox][version] = "1.5"
 projects[colorbox][subdir] = "contrib"
 
-projects[entity][version] = "7.x-1.0"
+projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
 projects[libraries][version] = "2.1"
@@ -88,6 +88,9 @@ projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
+
+projects[entityreference][version] = "1.0"
+projects[entityreference][subdir] = "contrib"
 
 projects[rooms][version] = "1.0-rc2"
 projects[rooms][subdir] = "contrib"
@@ -125,12 +128,6 @@ projects[omega][version] = "3.1"
 projects[omega][subdir] = "contrib"
 
 ; Libraries
-libraries[fullcalendar][directory_name] = "fullcalendar"
-libraries[fullcalendar][type] = "library"
-libraries[fullcalendar][destination] = "libraries"
-libraries[fullcalendar][download][type] = "get"
-libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.4.zip"
-
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][download][type] = git
 libraries[flexslider][destination] = "libraries"

@@ -1541,15 +1541,6 @@ function openhotel_permissions_user_default_permissions() {
     'module' => 'rooms_unit',
   );
 
-  // Exported permission: view availability information.
-  $permissions['view availability information'] = array(
-    'name' => 'view availability information',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'rooms_availability',
-  );
-
   // Exported permission: view own commerce_customer_profile entities.
   $permissions['view own commerce_customer_profile entities'] = array(
     'name' => 'view own commerce_customer_profile entities',

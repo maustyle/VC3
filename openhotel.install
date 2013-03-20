@@ -48,4 +48,6 @@ function openhotel_enable_admin_theme () {
     variable_set('admin_theme', 'seven');
   }
   variable_set('node_admin_theme', '1');
+  variable_set('rooms_fc_path', 'profiles/openhotel/libraries/fullcalendar/fullcalendar');
+  variable_set('rooms_ROOMS_FC_PATH', 'profiles/openhotel/libraries/fullcalendar/fullcalendar');
 }

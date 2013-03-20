@@ -15,10 +15,10 @@ function system_form_install_configure_form_alter(&$form, $form_state) {
  */
 function openhotel_configure_form_submit($form, &$form_state){
   openhotel_create_default_content();
-  $openhotel_modules = array('openhotel_content', 'openhotel_menu');
-  module_enable($openhotel_modules, TRUE);
+  $modules = array('openhotel_menu');
+  module_enable($modules);
   menu_rebuild();
-  cache_clear_all();
+  variable_set('openhotel_revert_content', TRUE);
   drupal_goto('<front>');
 }
 
@@ -32,13 +32,41 @@ function system_form_install_select_profile_form_alter(&$form, $form_state) {
   }
 }
 
-// /**
-//  * Implements hook_init().
-//  */
-// function openhotel_init() {
-//   print_r(node_load(12));
-//   die;
-// }
+/**
+ * Implements hook_init().
+ */
+function openhotel_init() {
+  if(variable_get('openhotel_revert_content', FALSE)){
+    variable_set('openhotel_revert_content', FALSE);
+    $modules = array('openhotel_content');
+    module_enable($modules);
+
+    // Create Custom Footer Block
+    $block = array(
+      'body' => array(
+        'value' => 'Developed by <a href="http://www.netstudio.gr/en">Netstudio</a>',
+        'format' => 'filtered_html',
+      ),
+      'info' => 'Powered by Netstudio',
+      'visibility' => 0,
+      'pages' => '',
+      'custom' => 0,
+      'module' => 'block',
+      'roles' => array(),
+      'regions' => array('openhoteltheme' => 'footer_first'),
+      'title' => '<none>',
+      'weight' => 1,
+    );
+    openhotel_create_custom_block($block);
+
+    cache_clear_all();
+    module_load_include('inc', 'admin_menu', 'admin_menu');
+    _admin_menu_flush_cache('registry');
+    drupal_goto();
+  }
+
+  module_load_include('inc', 'rooms_booking_manager', 'rooms_booking_manager.availability_search');
+}
 
 function openhotel_create_default_content(){
   $file = DRUPAL_ROOT . '/profiles/openhotel/import.csv';
@@ -227,4 +255,211 @@ function openhotel_create_default_content(){
     ),
   );
   node_save($node);
+
+  $values = array(
+    'unit_id' => 1,
+    'type' => 'double_bed',
+    'name' => 'Double Bed Room A (Phaedra)',
+    'base_price' => 100,
+    'bookable' => 1,
+    'sleeps' => 2,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 0,
+        'doubles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 2,
+    'type' => 'double_bed',
+    'name' => 'Double Bed Room B (Leto)',
+    'base_price' => 100,
+    'bookable' => 1,
+    'sleeps' => 2,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 0,
+        'doubles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 3,
+    'type' => 'double_bed',
+    'name' => 'Double Bed Room C (Kleo)',
+    'base_price' => 100,
+    'bookable' => 1,
+    'sleeps' => 2,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 0,
+        'doubles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 4,
+    'type' => 'single_bed',
+    'name' => 'Single Bed Room A (Chloe)',
+    'base_price' => 80,
+    'bookable' => 1,
+    'sleeps' => 1,
+    'default_state' => 1,
+    'data' => array(
+      'bed_arrangement' => array(
+        'singles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 5,
+    'type' => 'single_bed',
+    'name' => 'Single Bed Room B (Erato)',
+    'base_price' => 80,
+    'bookable' => 1,
+    'sleeps' => 1,
+    'default_state' => 1,
+    'data' => array(
+      'bed_arrangement' => array(
+        'singles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 6,
+    'type' => 'suite',
+    'name' => 'Suite A (Thalia)',
+    'base_price' => 150,
+    'bookable' => 1,
+    'sleeps' => 4,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 2,
+        'doubles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 7,
+    'type' => 'suite',
+    'name' => 'Suite B (Urania)',
+    'base_price' => 150,
+    'bookable' => 1,
+    'sleeps' => 4,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 2,
+        'doubles' => 1,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 8,
+    'type' => 'twin_bed',
+    'name' => 'Twin Bed Room (Terpsihori)',
+    'base_price' => 100,
+    'bookable' => 1,
+    'sleeps' => 2,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 2,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+
+  $values = array(
+    'unit_id' => 9,
+    'type' => 'twin_bed',
+    'name' => 'Twin Bed Room (Polymnia)',
+    'base_price' => 100,
+    'bookable' => 1,
+    'sleeps' => 2,
+    'default_state' => 1,
+    'data' => array(
+      'singlediscount' => 20,
+      'bed_arrangement' => array(
+        'singles' => 2,
+      ),
+    ),
+  );
+  $unit = rooms_unit_create($values);
+  $unit->save();
+}
+
+/*
+ * Create custom block.
+ */
+function openhotel_create_custom_block($block){
+  $delta = db_insert('block_custom')
+    ->fields(array(
+    'body' => $block['body']['value'],
+    'info' => $block['info'],
+    'format' => $block['body']['format'],
+  ))
+    ->execute();
+  // Store block delta to allow other modules to work with new block.
+  $block['delta'] = $delta;
+
+  $query = db_insert('block')->fields(array('visibility', 'pages', 'custom', 'title', 'module', 'theme', 'status', 'weight', 'delta', 'cache'));
+  $query->values(array(
+    'visibility' => (int) $block['visibility'],
+    'pages' => trim($block['pages']),
+    'custom' => (int) $block['custom'],
+    'title' => $block['title'],
+    'module' => $block['module'],
+    'theme' => 'opendeals_theme',
+    'status' => 0,
+    'weight' => $block['weight'],
+    'delta' => $delta,
+    'cache' => DRUPAL_NO_CACHE,
+  ));
+  $query->execute();
+
+  // Store regions per theme for this block
+  foreach ($block['regions'] as $theme => $region) {
+    db_merge('block')
+      ->key(array('theme' => $theme, 'delta' => $delta, 'module' => $block['module']))
+      ->fields(array(
+      'region' => ($region == BLOCK_REGION_NONE ? '' : $region),
+      'pages' => trim($block['pages']),
+      'status' => (int) ($region != BLOCK_REGION_NONE),
+    ))
+      ->execute();
+  }
 }
