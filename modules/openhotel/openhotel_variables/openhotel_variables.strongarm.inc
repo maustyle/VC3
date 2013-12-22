@@ -2442,7 +2442,7 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mail';
-  $strongarm->value = 'info@vacanzecroate.com';
+  $strongarm->value = 'web@thecoachinginstitute.com.au';
   $export['site_mail'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -3304,7 +3304,7 @@ user/*/*';
   $strongarm->api_version = 1;
   $strongarm->name = 'update_notify_emails';
   $strongarm->value = array(
-    0 => 'info@vacanzecroate.com',
+    0 => 'web@thecoachinginstitute.com.au',
   );
   $export['update_notify_emails'] = $strongarm;
 
