@@ -2439,7 +2439,7 @@ user/*/*';
   $export['site_frontpage'] = $strongarm;
 
   $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->disabled = TRUE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mail';
   $strongarm->value = 'info@netstudio.gr';
@@ -3300,7 +3300,7 @@ user/*/*';
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->disabled = TRUE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_notify_emails';
   $strongarm->value = array(
