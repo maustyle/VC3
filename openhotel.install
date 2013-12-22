@@ -8,7 +8,7 @@
 function openhotel_install() {
   openhotel_enable_theme();
   openhotel_enable_admin_theme();
-  variable_set('install_profile', 'openhotel');
+  //variable_set('install_profile', 'openhotel');
 }
 
 /**
