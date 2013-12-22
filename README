@@ -1,0 +1,30 @@
+$ git clone http://git.drupal.org/project/openhotel.git
+
+$ cd openhotel/
+
+openhotel$ git branch
+* 7.x-1.x
+
+openhotel$ git checkout -b vc3
+Switched to a new branch 'vc3'
+
+openhotel$ git remote rm origin
+
+openhotel$ git remote add origin https://github.com/maustyle/VC3
+
+openhotel$ git branch
+  7.x-1.x
+* vc3
+
+openhotel$ git push -u origin +HEAD
+
+/--/
+confirm branch settings via browser at https://github.com/maustyle/VC3/settings
+
+Repository Name = VC3
+
+Default Branch = vc3
+
+complete operation by restricting edits to Collaborators only Public Wikis will still be readable by everyone via browser UI.
+
+

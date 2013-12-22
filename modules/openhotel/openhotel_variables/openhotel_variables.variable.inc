@@ -865,9 +865,9 @@ user/*/*',
   'site_404' => '',
   'site_default_country' => 'GR',
   'site_frontpage' => 'node/6',
-  'site_mail' => 'info@netstudio.gr',
-  'site_name' => 'Open Hotel',
-  'site_slogan' => 'A free Drupal distribution with online availability and online booking for your resort.',
+  'site_mail' => 'info@vacanzecroate.com',
+  'site_name' => 'Vacanze Croate',
+  'site_slogan' => 'Development',
   'theme_default' => 'openhoteltheme',
   'theme_hotelbooking_settings' => array(
     'toggle_logo' => 1,
@@ -1724,8 +1724,8 @@ user/*/*',
 );
   $realm_variables['language']['el'] = array();
   $realm_variables['language']['en'] = array(
-  'site_name' => 'Open Hotel',
-  'site_slogan' => 'A free Drupal distribution with online availability and online booking for your resort.',
+  'site_name' => 'Vacanze Croate',
+  'site_slogan' => 'Development',
 );
   $realm_variables['language']['it'] = array();
 
