@@ -161,12 +161,12 @@ dependencies[] = ftools
 dependencies[] = fe_block
 
 ; Openhotel modules
-;dependencies[] = openhotel_defaults
-;dependencies[] = openhotel_languages
-;dependencies[] = openhotel_permissions
-;dependencies[] = openhotel_variables
-;dependencies[] = openhotel_structure
-;dependencies[] = openhotel_views
+dependencies[] = openhotel_defaults
+dependencies[] = openhotel_languages
+dependencies[] = openhotel_permissions
+dependencies[] = openhotel_variables
+dependencies[] = openhotel_structure
+dependencies[] = openhotel_views
 
 ; Files included with profile
 files[] = opendeals.profile

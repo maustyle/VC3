@@ -5,49 +5,47 @@
  *
  * Perform actions to set up the site for this profile.
  */
-//function openhotel_install() {
-  //openhotel_enable_theme();
-  //openhotel_enable_admin_theme();
-  //variable_set('install_profile', 'openhotel');
-//}
+function openhotel_install() {
+  openhotel_enable_theme();
+  openhotel_enable_admin_theme();
+  variable_set('install_profile', 'openhotel');
+}
 
 /**
 * Set openhotel as the front end Theme
 */
-//function openhotel_enable_theme () {
+function openhotel_enable_theme () {
   // Enable the admin theme.
-  // db_update('system')
-  //   ->fields(array('status' => 1))
-  //   ->condition('type', 'theme')
-  //   ->condition('name', 'openhoteltheme')
-  //   ->execute();
-  // variable_set('theme_default', 'openhoteltheme');
-//}
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'openhoteltheme')
+    ->execute();
+  variable_set('theme_default', 'openhoteltheme');
+}
 
 /**
 * Set Rubik as the Admin Theme
 */
-// function openhotel_enable_admin_theme () {
-//   // Enable the admin theme.
-//   db_update('system')
-//     ->fields(array('status' => 1))
-//     ->condition('type', 'theme')
-//     ->condition('name', 'seven')
-//     ->execute();
-//   $result = db_update('system')
-//     ->fields(array('status' => 1))
-//     ->condition('type', 'theme')
-//     ->condition('name', 'rubik')
-//     ->execute();
+function openhotel_enable_admin_theme () {
+  // Enable the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'seven')
+    ->execute();
+  $result = db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'rubik')
+    ->execute();
 
-//   // if rubik exists
-//   if( $result ) {
-//     variable_set('admin_theme', 'rubik');
-//   }
-//   else{
-//     variable_set('admin_theme', 'seven');
-//   }
-//   variable_set('node_admin_theme', '1');
-//   variable_set('rooms_fc_path', 'profiles/openhotel/libraries/fullcalendar/fullcalendar');
-//   variable_set('rooms_ROOMS_FC_PATH', 'profiles/openhotel/libraries/fullcalendar/fullcalendar');
-// }
+  // if rubik exists
+  if( $result ) {
+    variable_set('admin_theme', 'rubik');
+  }
+  else{
+    variable_set('admin_theme', 'seven');
+  }
+  variable_set('node_admin_theme', '1');
+}
