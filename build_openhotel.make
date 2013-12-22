@@ -9,7 +9,7 @@ core = 7.x
 ; includes[] = drupal-org-core.make
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.21
 
 ; Add Opendeals to the full distribution build.
 projects[openhotel][type] = profile
