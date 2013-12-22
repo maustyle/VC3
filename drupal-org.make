@@ -378,14 +378,14 @@ projects[simple_gmap][version] = 1.1
 ; end of Panopoly Core Makefile
 
 
-projects[panopoly_images][subdir] = panopoly
-projects[panopoly_images][version] = 1.0-rc5
+; projects[panopoly_images][subdir] = panopoly
+; projects[panopoly_images][version] = 1.0-rc5
 
-projects[panopoly_theme][subdir] = panopoly
-projects[panopoly_theme][version] = 1.0-rc5
+; projects[panopoly_theme][subdir] = panopoly
+; projects[panopoly_theme][version] = 1.0-rc5
 
-projects[panopoly_magic][subdir] = panopoly
-projects[panopoly_magic][version] = 1.0-rc5
+; projects[panopoly_magic][subdir] = panopoly
+; projects[panopoly_magic][version] = 1.0-rc5
 
 ; this project (Panopoly Widgets) has a makefile inside, replace with makefile's content and update properly the inside projects to their latest versions. see example of makefile recrusion https://drupal.org/files/oa2-fix_makefile_recursion-1989188-5.patch
 ; projects[panopoly_widgets][subdir] = panopoly
@@ -435,24 +435,24 @@ projects[panopoly_magic][version] = 1.0-rc5
 
 ; end of Panopoly Widgets Makefile
 
-projects[panopoly_admin][subdir] = panopoly
-projects[panopoly_admin][version] = 1.0-rc5
+; projects[panopoly_admin][subdir] = panopoly
+; projects[panopoly_admin][version] = 1.0-rc5
 
-projects[panopoly_users][subdir] = panopoly
-projects[panopoly_users][version] = 1.0-rc5
+; projects[panopoly_users][subdir] = panopoly
+; projects[panopoly_users][version] = 1.0-rc5
 
 ; The Panopoly Toolset
 
-projects[panopoly_pages][subdir] = panopoly
-projects[panopoly_pages][version] = 1.0-rc5
+; projects[panopoly_pages][subdir] = panopoly
+; projects[panopoly_pages][version] = 1.0-rc5
 
-projects[panopoly_wysiwyg][subdir] = panopoly
-projects[panopoly_wysiwyg][version] = 1.0-rc5
+; projects[panopoly_wysiwyg][subdir] = panopoly
+; projects[panopoly_wysiwyg][version] = 1.0-rc5
 
-projects[panopoly_search][subdir] = panopoly
+; projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_news][subdir] = panopoly
-projects[panopoly_news][version] = 1.0-rc2
+; projects[panopoly_news][subdir] = panopoly
+; projects[panopoly_news][version] = 1.0-rc2
 
 ; projects[panopoly_faq][subdir] = panopoly
 ; projects[panopoly_faq][version] = 2.x-dev
@@ -461,13 +461,13 @@ projects[panopoly_news][version] = 1.0-rc2
 ; OpenASU Bootstrap Framework
 
 ;projects[openasu_bootstrap][version] = 1.x-dev
-projects[openasu_bootstrap][type] = theme
-projects[openasu_bootstrap][subdir] = contrib
-projects[openasu_bootstrap][download][type] = git
-projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
+; projects[openasu_bootstrap][type] = theme
+; projects[openasu_bootstrap][subdir] = contrib
+; projects[openasu_bootstrap][download][type] = git
+; projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
 
-libraries[bootstrap][download][type] = get
-libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
+; libraries[bootstrap][download][type] = get
+; libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
 
 ; Themes
 
