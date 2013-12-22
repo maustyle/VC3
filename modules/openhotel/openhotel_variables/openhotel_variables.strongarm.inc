@@ -2442,21 +2442,21 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mail';
-  $strongarm->value = 'web@thecoachinginstitute.com.au';
+  $strongarm->value = 'info@netstudio.gr';
   $export['site_mail'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Vacanze Croate';
+  $strongarm->value = 'Open Hotel';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Development';
+  $strongarm->value = 'A free Drupal distribution with online availability and online booking for your resort.';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -3304,7 +3304,7 @@ user/*/*';
   $strongarm->api_version = 1;
   $strongarm->name = 'update_notify_emails';
   $strongarm->value = array(
-    0 => 'web@thecoachinginstitute.com.au',
+    0 => 'info@netstudio.gr',
   );
   $export['update_notify_emails'] = $strongarm;
 

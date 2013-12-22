@@ -865,9 +865,9 @@ user/*/*',
   'site_404' => '',
   'site_default_country' => 'GR',
   'site_frontpage' => 'node/6',
-  'site_mail' => 'web@thecoachinginstitute.com.au',
-  'site_name' => 'Vacanze Croate',
-  'site_slogan' => 'Development',
+  'site_mail' => 'info@netstudio.gr',
+  'site_name' => 'Open Hotel',
+  'site_slogan' => 'A free Drupal distribution with online availability and online booking for your resort.',
   'theme_default' => 'openhoteltheme',
   'theme_hotelbooking_settings' => array(
     'toggle_logo' => 1,
@@ -1724,8 +1724,8 @@ user/*/*',
 );
   $realm_variables['language']['el'] = array();
   $realm_variables['language']['en'] = array(
-  'site_name' => 'Vacanze Croate',
-  'site_slogan' => 'Development',
+  'site_name' => 'Open Hotel',
+  'site_slogan' => 'A free Drupal distribution with online availability and online booking for your resort.',
 );
   $realm_variables['language']['it'] = array();
 

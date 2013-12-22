@@ -6,7 +6,7 @@
  */
 function system_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
-  $form['site_information']['site_name']['#default_value'] = 'Vacanze Croate';
+  $form['site_information']['site_name']['#default_value'] = 'Open Hotel';
   $form['#submit'][] = 'openhotel_configure_form_submit';
 }
 
@@ -44,10 +44,10 @@ function openhotel_init() {
     // Create Custom Footer Block
     $block = array(
       'body' => array(
-        'value' => 'Developed by <a href="http://www.mazzerioli.com">Mazzerioli Web</a>',
+        'value' => 'Developed by <a href="http://www.netstudio.gr/en">Netstudio</a>',
         'format' => 'filtered_html',
       ),
-      'info' => 'Powered by Mazzerioli Web',
+      'info' => 'Powered by Netstudio',
       'visibility' => 0,
       'pages' => '',
       'custom' => 0,
