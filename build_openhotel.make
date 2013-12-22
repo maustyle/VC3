@@ -12,5 +12,5 @@ includes[] = drupal-org-core.make
 projects[openhotel][type] = profile
 ;projects[openhotel][version] = 1.x-dev
 projects[openhotel][download][type] = git
-projects[openhotel][download][url] = https://github.com/maustyle/VC3
+projects[openhotel][download][url] = https://github.com/maustyle/VC3.git
 projects[openhotel][download][branch] = vc3
