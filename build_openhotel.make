@@ -10,7 +10,7 @@ includes[] = drupal-org-core.make
 
 ; Add Opendeals to the full distribution build.
 projects[openhotel][type] = profile
-projects[openhotel][version] = 1.x-dev
+;projects[openhotel][version] = 1.x-dev
 projects[openhotel][download][type] = git
-projects[openhotel][download][url] = http://git.drupal.org/project/openhotel.git
-projects[openhotel][download][branch] = 7.x-1.x
+projects[openhotel][download][url] = https://github.com/maustyle/VC3
+projects[openhotel][download][branch] = vc3
