@@ -99,8 +99,8 @@ projects[feeds_xpathparser][version] = 1.0-beta4
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
-projects[htmLawed][subdir] = contrib
-projects[htmLawed][version] = 3.2
+; projects[htmLawed][subdir] = contrib
+; projects[htmLawed][version] = 3.2
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
