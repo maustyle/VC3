@@ -6,15 +6,15 @@
  */
 function system_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
-  $form['site_information']['site_name']['#default_value'] = 'Open Hotel';
-  $form['#submit'][] = 'openhotel_configure_form_submit';
+ // $form['site_information']['site_name']['#default_value'] = 'Open Hotel';
+  //$form['#submit'][] = 'openhotel_configure_form_submit';
 }
 
 /**
  * Submit callback for system_form_install_configure_form.
  */
 function openhotel_configure_form_submit($form, &$form_state){
-  openhotel_create_default_content();
+  //openhotel_create_default_content();
   $modules = array('openhotel_menu');
   module_enable($modules);
   menu_rebuild();
@@ -28,7 +28,7 @@ function openhotel_configure_form_submit($form, &$form_state){
 function system_form_install_select_profile_form_alter(&$form, $form_state) {
   // select openhotel install profile by default
   foreach ($form['profile'] as $key => $element) {
-    $form['profile'][$key]['#value'] = 'openhotel';
+    //$form['profile'][$key]['#value'] = 'openhotel';
   }
 }
 
