@@ -127,7 +127,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['commerce_cart-cart'] = array(
@@ -142,7 +142,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => 'checkout*',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['diff-inline'] = array(
@@ -157,7 +157,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['locale-language'] = array(
@@ -172,7 +172,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['menu-features'] = array(
@@ -187,7 +187,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['menu-menu-footer-menu'] = array(
@@ -202,7 +202,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['node-recent'] = array(
@@ -217,7 +217,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['node-syndicate'] = array(
@@ -232,7 +232,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['rooms_booking_manager-rooms_availability_search'] = array(
@@ -247,7 +247,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['search-form'] = array(
@@ -262,7 +262,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-help'] = array(
@@ -277,7 +277,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-main'] = array(
@@ -292,7 +292,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-main-menu'] = array(
@@ -307,7 +307,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-management'] = array(
@@ -322,7 +322,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-navigation'] = array(
@@ -337,7 +337,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-powered-by'] = array(
@@ -352,7 +352,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-user-menu'] = array(
@@ -367,7 +367,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-login'] = array(
@@ -382,7 +382,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-new'] = array(
@@ -397,7 +397,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-online'] = array(
@@ -412,7 +412,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-front_page_slide_show-block'] = array(
@@ -427,7 +427,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-slideshow-block_1'] = array(
@@ -442,7 +442,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-slideshow-block_2'] = array(
@@ -457,7 +457,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-testimonials_block-block'] = array(
@@ -472,7 +472,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => 'Client Testimonials',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $export['theme']['openhoteltheme'] = $theme;
@@ -492,7 +492,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['commerce_cart-cart'] = array(
@@ -507,7 +507,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => 'checkout*',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['diff-inline'] = array(
@@ -522,7 +522,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['locale-language'] = array(
@@ -537,7 +537,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['menu-features'] = array(
@@ -552,7 +552,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['menu-menu-footer-menu'] = array(
@@ -567,7 +567,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['node-recent'] = array(
@@ -582,7 +582,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '-1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['node-syndicate'] = array(
@@ -597,7 +597,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['rooms_booking_manager-rooms_availability_search'] = array(
@@ -612,7 +612,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['search-form'] = array(
@@ -627,7 +627,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-help'] = array(
@@ -642,7 +642,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-main'] = array(
@@ -657,7 +657,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-main-menu'] = array(
@@ -672,7 +672,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-management'] = array(
@@ -687,7 +687,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-navigation'] = array(
@@ -702,7 +702,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-powered-by'] = array(
@@ -717,7 +717,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['system-user-menu'] = array(
@@ -732,7 +732,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-login'] = array(
@@ -747,7 +747,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-new'] = array(
@@ -762,7 +762,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => '-1',
-    'i18n_mode' => '0',
+
   );
 
   $theme['user-online'] = array(
@@ -777,7 +777,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-front_page_slide_show-block'] = array(
@@ -792,7 +792,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-slideshow-block_1'] = array(
@@ -807,7 +807,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-slideshow-block_2'] = array(
@@ -822,7 +822,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $theme['views-testimonials_block-block'] = array(
@@ -837,7 +837,7 @@ function openhotel_content_default_fe_block_settings() {
     'pages' => '',
     'title' => 'Client Testimonials',
     'cache' => -1,
-    'i18n_mode' => '0',
+
   );
 
   $export['theme']['seven'] = $theme;

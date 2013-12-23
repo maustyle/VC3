@@ -336,75 +336,75 @@ function openhotel_structure_strongarm() {
   );
   $export['field_bundle_settings_node__webform'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_front_page_slideshow_slide';
-  $strongarm->value = '1';
-  $export['i18n_node_extended_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_front_page_slideshow_slide';
+  // $strongarm->value = '1';
+  // $export['i18n_node_extended_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_photo_gallery';
-  $strongarm->value = '1';
-  $export['i18n_node_extended_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_photo_gallery';
+  // $strongarm->value = '1';
+  // $export['i18n_node_extended_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_webform';
-  $strongarm->value = 1;
-  $export['i18n_node_extended_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_webform';
+  // $strongarm->value = 1;
+  // $export['i18n_node_extended_webform'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_front_page_slideshow_slide';
-  $strongarm->value = array();
-  $export['i18n_node_options_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_front_page_slideshow_slide';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_photo_gallery';
-  $strongarm->value = array();
-  $export['i18n_node_options_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_photo_gallery';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_webform';
-  $strongarm->value = array();
-  $export['i18n_node_options_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_webform';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_webform'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_front_page_slideshow_slide';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_front_page_slideshow_slide';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_photo_gallery';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_photo_gallery';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_testimonials';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_testimonials'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_testimonials';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_testimonials'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_webform';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_webform';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_webform'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

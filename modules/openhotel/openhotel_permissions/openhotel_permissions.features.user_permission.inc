@@ -278,13 +278,13 @@ function openhotel_permissions_user_default_permissions() {
   );
 
   // Exported permission: administer content translations.
-  $permissions['administer content translations'] = array(
-    'name' => 'administer content translations',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'i18n_node',
-  );
+  // $permissions['administer content translations'] = array(
+  //   'name' => 'administer content translations',
+  //   'roles' => array(
+  //     0 => 'administrator',
+  //   ),
+  //   'module' => 'i18n_node',
+  // );
 
   // Exported permission: administer content types.
   $permissions['administer content types'] = array(
@@ -1352,13 +1352,13 @@ function openhotel_permissions_user_default_permissions() {
   );
 
   // Exported permission: translate admin strings.
-  $permissions['translate admin strings'] = array(
-    'name' => 'translate admin strings',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'i18n_string',
-  );
+  // $permissions['translate admin strings'] = array(
+  //   'name' => 'translate admin strings',
+  //   'roles' => array(
+  //     0 => 'administrator',
+  //   ),
+  //   'module' => 'i18n_string',
+  // );
 
   // Exported permission: translate content.
   $permissions['translate content'] = array(
@@ -1379,13 +1379,13 @@ function openhotel_permissions_user_default_permissions() {
   );
 
   // Exported permission: translate user-defined strings.
-  $permissions['translate user-defined strings'] = array(
-    'name' => 'translate user-defined strings',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'i18n_string',
-  );
+  // $permissions['translate user-defined strings'] = array(
+  //   'name' => 'translate user-defined strings',
+  //   'roles' => array(
+  //     0 => 'administrator',
+  //   ),
+  //   'module' => 'i18n_string',
+  // );
 
   // Exported permission: update payments.
   $permissions['update payments'] = array(

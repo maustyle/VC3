@@ -668,11 +668,11 @@ function openhotel_variables_strongarm() {
     'file' => 'file',
     'ftools' => 'ftools',
     'googleanalytics' => 'googleanalytics',
-    'i18n_node' => 'i18n_node',
+    //'i18n_node' => 'i18n_node',
     'translation' => 'translation',
-    'i18n' => 'i18n',
+    //'i18n' => 'i18n',
     'variable' => 'variable',
-    'i18n_string' => 'i18n_string',
+    //'i18n_string' => 'i18n_string',
     'menu' => 'menu',
     'module_filter' => 'module_filter',
     'overlay' => 'overlay',
@@ -1049,75 +1049,76 @@ user/*/*';
   $strongarm->value = '0';
   $export['googleanalytics_visibility_roles'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_front_page_slideshow_slide';
-  $strongarm->value = '1';
-  $export['i18n_node_extended_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_front_page_slideshow_slide';
+  // $strongarm->value = '1';
+  // $export['i18n_node_extended_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_photo_gallery';
-  $strongarm->value = '1';
-  $export['i18n_node_extended_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_photo_gallery';
+  // $strongarm->value = '1';
+  // $export['i18n_node_extended_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_extended_webform';
-  $strongarm->value = 1;
-  $export['i18n_node_extended_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_extended_webform';
+  // $strongarm->value = 1;
+  // $export['i18n_node_extended_webform'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_front_page_slideshow_slide';
-  $strongarm->value = array();
-  $export['i18n_node_options_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_front_page_slideshow_slide';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_photo_gallery';
-  $strongarm->value = array();
-  $export['i18n_node_options_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_photo_gallery';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_node_options_webform';
-  $strongarm->value = array();
-  $export['i18n_node_options_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_node_options_webform';
+  // $strongarm->value = array();
+  // $export['i18n_node_options_webform'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_front_page_slideshow_slide';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_front_page_slideshow_slide'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_front_page_slideshow_slide';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_front_page_slideshow_slide'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_photo_gallery';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_photo_gallery'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_photo_gallery';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_photo_gallery'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_testimonials';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_testimonials'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_testimonials';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_testimonials'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'i18n_sync_node_type_webform';
-  $strongarm->value = array();
-  $export['i18n_sync_node_type_webform'] = $strongarm;
+  // $strongarm = new stdClass();
+  // $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  // $strongarm->api_version = 1;
+  // $strongarm->name = 'i18n_sync_node_type_webform';
+  // $strongarm->value = array();
+  // $export['i18n_sync_node_type_webform'] = $strongarm;
+
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -3367,27 +3368,27 @@ user/*/*';
       1 => 'language_content_type_page',
       2 => 'language_default',
     ),
-    'i18n' => array(
-      0 => 'i18n_language_list',
-    ),
-    'i18n_string' => array(
-      0 => 'i18n_string_translate_langcode_en',
-      1 => 'i18n_string_allowed_formats',
-      2 => 'i18n_string_source_language',
-      3 => 'i18n_string_debug',
-    ),
-    'i18n_select' => array(
-      0 => 'i18n_select_nodes',
-      1 => 'i18n_select_taxonomy',
-      2 => 'i18n_select_page_mode',
-      3 => 'i18n_select_page_list',
-      4 => 'i18n_select_page_block',
-      5 => 'i18n_select_skip_tags',
-    ),
-    'i18n_variable' => array(
-      0 => 'i18n_variable_conf',
-      1 => 'i18n_variable_list',
-    ),
+    // 'i18n' => array(
+    //   0 => 'i18n_language_list',
+    // ),
+    // 'i18n_string' => array(
+    //   0 => 'i18n_string_translate_langcode_en',
+    //   1 => 'i18n_string_allowed_formats',
+    //   2 => 'i18n_string_source_language',
+    //   3 => 'i18n_string_debug',
+    // ),
+    // 'i18n_select' => array(
+    //   0 => 'i18n_select_nodes',
+    //   1 => 'i18n_select_taxonomy',
+    //   2 => 'i18n_select_page_mode',
+    //   3 => 'i18n_select_page_list',
+    //   4 => 'i18n_select_page_block',
+    //   5 => 'i18n_select_skip_tags',
+    // ),
+    // 'i18n_variable' => array(
+    //   0 => 'i18n_variable_conf',
+    //   1 => 'i18n_variable_list',
+    // ),
     'colorbox' => array(
       0 => 'colorbox_text_start',
       1 => 'colorbox_text_stop',

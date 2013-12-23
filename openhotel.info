@@ -89,21 +89,28 @@ dependencies[] = flexslider_views_slideshow
 dependencies[] = cs_adaptive_image
 
 ; Multilingual
-dependencies[] = i18n
-dependencies[] = i18n_block
-dependencies[] = i18n_field
-dependencies[] = i18n_menu
-dependencies[] = i18n_node
-dependencies[] = i18n_path
-dependencies[] = i18n_redirect
-dependencies[] = i18n_select
-dependencies[] = i18n_string
-dependencies[] = i18n_sync
-dependencies[] = i18n_taxonomy
-dependencies[] = i18n_translation
-dependencies[] = i18n_variable
+
+; Since Aegir throws an error on site install:
+;       Drush command terminated abnormally due to an unrecoverable error.                                                                      [error]
+;       Error: Class name must be a valid object or a string in
+;       /var/aegir/platforms/vc3-7.21-1.6/profiles/openhotel/modules/contrib/i18n/i18n_string/i18n_string.module, line 343 [64.83 sec, 19.38 MB]
+; i18n needs to be removed.
+; dependencies[] = i18n
+; dependencies[] = i18n_block
+; dependencies[] = i18n_field
+; dependencies[] = i18n_menu
+; dependencies[] = i18n_node
+; dependencies[] = i18n_path
+; dependencies[] = i18n_redirect
+; dependencies[] = i18n_select
+; dependencies[] = i18n_string
+; dependencies[] = i18n_sync
+; dependencies[] = i18n_taxonomy
+; dependencies[] = i18n_translation
+; dependencies[] = i18n_variable
+; dependencies[] = rules_i18n
+
 dependencies[] = languageicons
-dependencies[] = rules_i18n
 
 ; Other
 dependencies[] = colorbox
