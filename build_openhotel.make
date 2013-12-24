@@ -16,5 +16,5 @@ projects[openhotel][type] = profile
 ;projects[openhotel][version] = 1.x-dev
 projects[openhotel][download][type] = git
 projects[openhotel][download][url] = https://github.com/maustyle/VC3.git
-projects[openhotel][download][branch] = vc3
+projects[openhotel][download][branch] = (detached-from-de517f6)
 
